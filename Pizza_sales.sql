@@ -1,21 +1,24 @@
 /* 
    Pizza sales ANALYSIS
    Author: Shashank Gupta
-   Database: PostgreSQL
    Purpose: SQL-based analysis of Pizza Sales
 */
 
--- TABLE STRUCTURE
+--Create Database
 
 create database PizzaCave;
 use PizzaCave;
+
+-- TABLE STRUCTURE
+
+--Create Orders Table
 create table orders(
 order_id int not null,
 order_date date not null,
 order_time time not null,
 primary key(order_id));
 
-
+--Create Orders_Details Table
 create table order_details(
 order_details_id int not null,
 order_id int not null,
