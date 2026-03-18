@@ -1,3 +1,12 @@
+/* 
+   Pizza sales ANALYSIS
+   Author: Shashank Gupta
+   Database: PostgreSQL
+   Purpose: SQL-based analysis of Pizza Sales
+*/
+
+-- TABLE STRUCTURE
+
 create database PizzaCave;
 use PizzaCave;
 create table orders(
